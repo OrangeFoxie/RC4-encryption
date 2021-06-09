@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RC4</title>
+</head>
+<body>
+    <form action="" class="format">
+        <div class="container">
+            <label for="strInput">Chuỗi kí tự</label>
+            <input type="text" id="strInput" class="inputTxt">
+        </div>
+        <div class="container">
+            <label for="keyEnc">Key</label>
+            <input type="text" id="keyEnc" class="inputTxt">
+        </div>
+        <div class="container">
+            <p id="txtoutput">Kết quả sẽ nằm đây nek :3</p>
+        </div>
+        <div class="container">
+            <input type="button" id="btnEnc" class="btnInput" value="Mã hoá nek" onclick="rc4show()">
+        </div>
+    
+        <script src="./rc4.js"></script>
+    </form>
+</body>
+</html>
