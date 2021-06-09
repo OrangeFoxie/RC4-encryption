@@ -71,5 +71,7 @@ textarea:focus, input:focus {
     padding-bottom: 10px; }
   .format2 p {
     margin-top: -20px; }
+  .format2 .hutechlogo {
+    max-width: 450px; }
 
 /*# sourceMappingURL=style.css.map */
