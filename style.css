@@ -17,9 +17,15 @@ textarea:focus, input:focus {
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   align-items: center; }
+  @media screen and (max-width: 992px) {
+    .format {
+      width: auto; } }
   .format .container {
     padding-bottom: 20px;
     width: 95%; }
+    @media screen and (max-width: 992px) {
+      .format .container {
+        width: 100%; } }
     .format .container h2 {
       text-align: center;
       user-select: none; }
