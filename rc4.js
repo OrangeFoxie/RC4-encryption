@@ -24,7 +24,7 @@ function rc4(key, str) {
 	return res;
 }
 
-function rc4show(){
+function rc4Enc(){
     let strInput = document.getElementById("strInput").value;
     let keyEnc = document.getElementById("keyEnc").value;
     let kq = rc4(keyEnc,strInput);
