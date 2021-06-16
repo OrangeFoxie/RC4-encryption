@@ -9,4 +9,4 @@
 <h2>Link demo: <a href="https://orangefoxie.github.io/rc4demo.github.io/" target="_blank">CLICK TO GO</a> </h2>
 
 ----------------------------------------------------------
-<p>Người viết: <a href="https://www.facebook.com/hitoshi.itamino/">Phạm Nguyễn Hoàng Vĩnh Phúc</a></p>
+<p>Người viết: <a href="https://www.facebook.com/hitoshi.itamino/" target="_blank">Phạm Nguyễn Hoàng Vĩnh Phúc</a></p>
