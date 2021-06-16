@@ -14,18 +14,23 @@
         </div>
         <div class="container">
             <label for="strInput">Chuỗi kí tự</label>
-            <input type="text" id="strInput" class="inputTxt">
+            <input type="text" id="strInput" class="inputTxt" onkeyup="rc4Enc();rc4Dec();">
         </div>
         <div class="container">
             <label for="keyEnc">Key</label>
-            <input type="text" id="keyEnc" class="inputTxt">
+            <input type="text" id="keyEnc" class="inputTxt" onkeyup="rc4Enc();rc4Dec();">
         </div>
         <div class="container">
-            <p id="txtoutput" class="txtoutput">Kết quả sẽ nằm đây nek :3</p>
+            <p id="txtoutput" class="txtoutput" >Tự mã hoá</p>
+            <p id="txtoutput2" class="txtoutput" >Tự giải mã</p>
         </div>
-        <div class="container">
-            <input type="button" id="btnEnc" class="btnInput" value="Mã hoá nek" onclick="rc4Enc()">
-        </div>    
+
+        <!-- <div class="container">
+            <input type="button" id="btnEnc" class="btnInput" value="Mã hoá" onclick="rc4Enc()">            
+        </div>     -->
+        <!-- <div class="container">
+            <input type="button" id="btnDec" class="btnInput" value="Giải mã" onclick="rc4Dec()">
+        </div>  -->
     </form>
     <form action="" class="format2">
         <img class="hutechlogo" src="./pics/logoHUTECH.png" alt="HUTECH logo">
