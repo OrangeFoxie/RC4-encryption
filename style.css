@@ -67,11 +67,18 @@ textarea:focus, input:focus {
   @media screen and (max-width: 996px) {
     .format2 {
       width: auto; } }
+  @media screen and (max-width: 475px) {
+    .format2 {
+      width: auto;
+      align-items: flex-start; } }
   .format2 h2 {
     padding-bottom: 10px; }
   .format2 p {
     margin-top: -20px; }
   .format2 .hutechlogo {
     max-width: 450px; }
+    @media all and (max-width: 996px) {
+      .format2 .hutechlogo {
+        max-width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */

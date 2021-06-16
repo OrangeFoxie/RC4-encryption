@@ -25,6 +25,7 @@ function rc4(key, str) {
     }
     return ct;
 }
+
 let kq1;
 function rc4Enc(){
     let strInput = document.getElementById("strInput").value;
@@ -45,6 +46,6 @@ function checkkq(id,kq){
 	if(kq){
 		document.getElementById(id).innerHTML = kq;
 	}else{
-		document.getElementById(id).innerHTML = "Kết quả";
+		document.getElementById(id).innerHTML = "Kết quả mã-giải hoá";
 	}
 }

@@ -82,6 +82,10 @@ textarea:focus, input:focus{
         @media screen and (max-width: 996px){
             width: auto;
         }
+        @media screen and (max-width: 475px){
+            width: auto;
+            align-items: flex-start;
+        }
 
     h2{
         padding-bottom: 10px;
@@ -91,5 +95,9 @@ textarea:focus, input:focus{
     }
     .hutechlogo{
         max-width: 450px;
+
+        @media all and (max-width: 996px){
+            max-width: 300px;
+        }
     }
 }
