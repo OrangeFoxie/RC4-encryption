@@ -5,6 +5,10 @@ html {
 textarea:focus, input:focus{
     outline: none;
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 .format {
     background-color: rgb(255, 255, 255);
     width: 500px;
