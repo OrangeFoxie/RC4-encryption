@@ -1,4 +1,3 @@
-
 function rc4(key, str) {
     s = new Array();
     for (var i = 0; i < 256; i++) {
